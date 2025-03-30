@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services - LabTech</title>
+  <link href="https://unpkg.com/lucide@latest/dist/lucide.css" rel="stylesheet">
+  <link rel="stylesheet" href="./service.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-inner">
+        <div class="nav-brand">
+          <i data-lucide="microscope" class="h-8 w-8 text-blue-600"></i>
+          <span>LabTech</span>
+        </div>
+        
+        <!-- Desktop Navigation -->
+        <div class="nav-links">
+          <a href="../index.html" class="text-gray-600 hover:text-blue-600">Home</a>
+          <a href="./service.html" class="text-blue-600">Services</a>          
+          <a href="../contact-us/contact.html" class="text-gray-600 hover:text-blue-600">Contact</a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="mobile-menu-btn">
+          <button id="menuToggle" class="text-gray-600 hover:text-blue-600">
+            <i data-lucide="menu" class="h-6 w-6"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobileMenu" class="mobile-menu">
+      <div class="mobile-menu-items">
+        <a href="../index.html" class="block px-3 py-2 text-gray-600 hover:text-blue-600">Home</a>
+        <a href="./service.html" class="block px-3 py-2 text-blue-600">Services</a>
+        <a href="../contact-us/contact.html" class="block px-3 py-2 text-gray-600 hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="services-container">
+      <div class="section-header">
+        <div class="section-title">
+          <h2>Our Services</h2>
+          <p>Comprehensive laboratory solutions tailored to your research needs</p>
+        </div>
+      </div>
+      
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1581093450021-4a7360e9a03e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Molecular Diagnostics">
+          </div>
+          <div class="service-content">
+            <div class="service-icon">
+              <i data-lucide="dna"></i>
+            </div>
+            <h3>Analysis reservation</h3>
+            <p>Advanced genetic testing and analysis using cutting-edge PCR and sequencing technologies to detect pathogens, genetic disorders, and biomarkers.</p>
+            <a href="#" class="btn-primary transition">Learn More</a>
+          </div>
+        </div>
+        
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Biochemical Analysis">
+          </div>
+          <div class="service-content">
+            <div class="service-icon">
+              <i data-lucide="flask-conical"></i>
+            </div>
+            <h3>Chat bot powered by AI model</h3>
+            <p>Comprehensive metabolic profiling and enzyme assays to support clinical diagnostics and pharmaceutical research with precise measurements.</p>
+            <a href="#" class="btn-primary transition">Learn More</a>
+          </div>
+        </div>
+        
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1581093057305-409e0ff73cee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Pharmaceutical Testing">
+          </div>
+          <div class="service-content">
+            <div class="service-icon">
+              <i data-lucide="pill"></i>
+            </div>
+            <h3>see results</h3>
+            <p>Rigorous quality control and stability testing for drug development, ensuring safety and efficacy of pharmaceutical products.</p>
+            <a href="#" class="btn-primary transition">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <div class="footer-brand">
+            <i data-lucide="microscope" class="h-8 w-8 text-white"></i>
+            <span>LabTech</span>
+          </div>
+          <p class="footer-text">
+            Advancing scientific discovery through cutting-edge laboratory services and research.
+          </p>
+        </div>
+        <div class="footer-column">
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./service.html">Services</a></li>
+              <li><a href="../contact-us/contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-column">
+          <div class="footer-social">
+            <h4>Follow Us</h4>
+            <div class="footer-social-icons">
+              <a href="#"><i data-lucide="facebook" class="h-6 w-6"></i></a>
+              <a href="#"><i data-lucide="twitter" class="h-6 w-6"></i></a>
+              <a href="#"><i data-lucide="linkedin" class="h-6 w-6"></i></a>
+              <a href="#"><i data-lucide="instagram" class="h-6 w-6"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          © 2025 LabTech. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chatbot Button -->
+  <div class="chatbot-button pulse" id="chatbotButton">
+    <i data-lucide="message-circle"></i>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="./service.js"></script>
+</body>
+</html>
