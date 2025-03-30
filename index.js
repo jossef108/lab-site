@@ -24,7 +24,7 @@
   const chatbotButton = document.getElementById('chatbotButton');
  chatbotButton.addEventListener('click', () => {
    // Redirect to chatbot page
-   window.location.href = "chatbot.html"; // Change this to your actual chatbot page URL
+   window.location.href = "./chat-bot/public/chat-bot.html"; // Change this to your actual chatbot page URL
  });
 
  // Stop pulse animation when hovering
